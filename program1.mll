@@ -1,0 +1,15 @@
+READ
+
+loop:
+PUSH 2
+SUB
+
+JUMP.GT.0 loop
+JUMP.EQ.0 EVEN
+
+PRINT "odd"
+HALT
+
+EVEN:
+PRINT "even"
+HALT
